@@ -141,5 +141,5 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 if DEBUG:
     STRIPE_PUBLISHABLE_KEY = ""
-    STRIPE_SECRET_KEY = ""
+    STRIPE_SECRET_KEY = "sk_test_51PCIjwSBao1zk1VEFoi8U7gWguqbzQkMm6NGLNqhhAxO5NG63kYdXqFzNDe0HOlH6C9FtRgTj7VqLcunB0oXgGGs00eyZ8iEhh"
     STRIPE_ENDPOINT_SECRET = ""
